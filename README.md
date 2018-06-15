@@ -16,7 +16,7 @@ _Do not use the program until you have read this documentation file completly._
 - the source code will be uploaded soon
 - the source code was written and compiled for **Microsoft Windows x64** using _Microsoft Visual Studio 2015_ and the _NVidia Cuda Toolkit 8.0_
 - programming language is _C++_ and _Cuda_
-- at least a [_Cuda Compute Capability_](https://de.wikipedia.org/wiki/CUDA) of 2.1 or higher is necessary
+- at least a [_Cuda Compute Capability_](https://de.wikipedia.org/wiki/CUDA#Unterst%C3%BCtzte_GPUs) of 2.1 or higher is necessary
 - usage is only recommended for the _GTX_ and _Titan_ series of _NVidia_,
 - the program was tested only on the following graphic processing units (GPU): GTX 970, GTX 980TI and GTX 1080
 - the program can use only one GPU

@@ -6,7 +6,7 @@ A fast experimental cuda routine for the evaluation of powder diffraction patter
 This is an open source software, you can use and redistribute everything **BUT YOU ARE ENCOURAGED TO CITE OUR PUBLICATION:**
 - will be added soon
 
-In case of commercial use, questions, problems and bugs please write me an e-mail: [click here](m.s.rudolph@outlook.com)
+In case of commercial use, questions, problems and bugs please write me an e-mail: [click here](mailto:m.s.rudolph@outlook.com)
 
 AS THIS IS AN EXPERIMENTAL CODE THE USAGE IS AT OWN RISK, we will not take on responsibility for a system crash or anything else.
 Do not use the program until you have read this documentation file completly.

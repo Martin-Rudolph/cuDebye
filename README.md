@@ -57,8 +57,8 @@ Afterwards you can increase the block and grid size carefully under the consider
 
 **Choosing the block size:**
 The maximum block size (which can be used) is the square root of maximum threads per block, in our example it is 32.
-Furthermore, it is an advantage but not a condition, that the numper of threads per block is a multiple of 2 (binary system) and 32 (threads per warp).
-It is also an advantage if then numer of threads is not at maximum.
+Furthermore, it is an advantage but not a condition, that the number of threads per block is a multiple of 2 (binary system) and 32 (threads per warp).
+It is also an advantage if then number of threads is not at maximum.
 
 **Choosing the grid size:**
 The maximum possible grid size is exactly the smallest grid dimension, in our example it is 65636 as given for the y-dimension. Here it is also beneficial when the number is a multiple of 2.

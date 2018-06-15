@@ -70,19 +70,19 @@ As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Ns
 
 ![Nsight Monitor Options](/images/Nsight2.PNG)
 
-**For my GTX 980TI I prefer as block size 16 and as grid size 4096 or 8192, the time out was set to 60 seconds (more than actually necessary).**
+**I prefer as block size 16 and as grid size 4096 or 8192 (GTX 980TI), the time out was set to 60 seconds.**
 
 ### Second Line
-This line contains the information about diffractogram, which is calculated.
+This line contains the information about the diffractogram, which is calculated.
 
 **The first number** is the wavelength, in our case it is 1.5418 Angstrom (CuKa).
 
 **The following numbers** are the minimum diffraction angle, the maximum diffraction angle and the step width, respectively.
 All values are given in degree.
 The lower and upper limits are 0 and 180 degree.
-However, it is recommended to use typical diffractometer values as e.g. in the input file.
+However, it is recommended to use typical diffractometer values like 10-140 degree with a step size of 0.02 degree.
 
 ### Third Line
 This line contains the informations for the distance calculation and also specifies which output files are generated.
 
-**The first number** 
+**The first number** is the maximum occuring interatomic distance. It is better to choose distance larger than the actual cluster size instead of a number smaller than the maximum distance for the specified atom positions. 

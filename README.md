@@ -38,5 +38,8 @@ As input file for the calculation a so called *.deb-file is necessary. If you ch
 
 All values/parameters within a line are separated by space.
 
-###First Line
+### First Line
+This line contains probably the most confusing informations and specify the computing options for the _Cuda Device_ (_Cuda_ capable GPU).
+The first number defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count) this number is always 0. 
+Otherwise each installed device has an integer number 0,1,2... choose the one which is most powerfull.
 

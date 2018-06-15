@@ -62,16 +62,14 @@ So you should run the program (see **Running cuDebye**) first with the parameter
 - Max Blocks per Grid in Y-Dimension (the one with the lowest value) --> e.g. 65535
 Afterwards you can increase the block and grid size carefully under the consideration of the following hints:
 
-**Second Number (Block Size)**
+#### Second Number (Block Size)
 The maximum block size (which can be used) is the square root of maximum threads per block, in our example it is 32.
 Furthermore, it is a advantage but not a condition that the numper of threads per block is a multiple of 2 (binary system) and 32 (threads per warp).
 It is also an advantage if then numer of threads is not at maximum.
 
-**Third Number (Grid Size)**
+#### Third Number (Grid Size)
 The maximum 
 
-First I recommend to run this program 
-The maximum size of threads per block and blocks per grids depends on your _Cuda Device_
-In other words the GPU calculates 
+
 [_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html)
 

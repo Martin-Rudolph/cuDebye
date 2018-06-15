@@ -56,7 +56,8 @@ The latter can be a problem as GPUs are usually reseted by _Microsoft Windows_ a
 Unfortunately this leads to the termination of _cuDebye_.
 The faster your GPU, the larger is the number of distances you can calculate within these 2 seconds.
 
-So you should run the program (see **Running cuDebye**) first with the parameters in the example file _GammaAl2O3_ and check displayed **
+So you should run the program (see **Running cuDebye**) first with the parameters in the example file _GammaAl2O3_10nm_ and check the following displayed **CUDA PROPERTIES**:
+
 First I recommend to run this program 
 The maximum size of threads per block and blocks per grids depends on your _Cuda Device_
 In other words the GPU calculates 

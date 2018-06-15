@@ -91,7 +91,7 @@ This line contains the informations for the distance calculation and also specif
 
 **The third number** defines the generated output files:
 - 0: only a intensity file (debI) is generated, the first column contains the diffraction angles and the second column the calculated intensities
-- 1: only distance histogram files are generated for each subgroup combination, the first column contains the distances in Angstrom and second column the frequency, e.g. the file for the interatomic distances between the subgroup 0 and 1 is debx0x1
+- 1: only distance histogram files are generated for each subgroup combination, the first column contains the distances in Angstrom and the second column the frequencies (e.g. the file for the interatomic distances between the subgroup 0 and 1 is debx0x1)
 - 2: intensity file and distance histograms are created
 
-Writing distance histograms will slow down the routine.
+Writing distance histograms will slow down the routine. In our example we have 3 different subgroups, thus 6 distance histogram files are generated.

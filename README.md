@@ -23,4 +23,6 @@ _Do not use the program until you have read this documentation file completly._
 - **if the same GPU is used for display tasks, your screen will freeze during the calculation**
 - thus, I use the _Intel's integrated HD graphics_ for my monitors, but you could also use a second dedicated GPU or wait until the calculation is done
 
-## 
+## Input File
+
+As input file for the calculation a so called *.deb-file is necessary. If you check the provided test file **GammaAl2O3_10nm.deb** you will recognize  

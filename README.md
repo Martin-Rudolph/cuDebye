@@ -3,13 +3,13 @@ A fast experimental cuda routine for the evaluation of powder diffraction patter
 
 ### AT THE MOMENT THIS FILE AND THE BRANCH ARE UNDER CONSTRUCTION DO NOT USE THE PROGRAM UNTIL THIS LINE IS DELETED.
 
-This is an open source software, you can use and redistribute everything **BUT YOU ARE ENCOURAGED TO CITE OUR PUBLICATION:**
+This is an open source software, you can use and redistribute everything **but you are encouraged to cite our publicaction:**
 - will be added soon
 
-In case of commercial use, questions, problems and bugs please write me an e-mail: [click here](mailto:m.s.rudolph@outlook.com)
+In case of commercial use, questions, problems and bugs please write me an [E-Mail](mailto:m.s.rudolph@outlook.com).
 
-AS THIS IS AN EXPERIMENTAL CODE THE USAGE IS AT OWN RISK, we will not take on responsibility for a system crash or anything else.
-Do not use the program until you have read this documentation file completly.
+**As this is an experimental code the usage is at own risk**, we will not take on responsibility for a system crash or anything else.
+_Do not use the program until you have read this documentation file completly._
 
 ## GENERAL INFORMATIONS
 

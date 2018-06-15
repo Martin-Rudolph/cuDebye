@@ -57,6 +57,16 @@ Unfortunately this leads to the termination of _cuDebye_.
 The faster your GPU, the larger is the number of distances you can calculate within these 2 seconds.
 
 So you should run the program (see **Running cuDebye**) first with the parameters in the example file _GammaAl2O3_10nm_ and check the following displayed **CUDA PROPERTIES**:
+- Max Threads per Block --> e.g. 1024
+- Threads per Warp --> e.g. 32
+- Max Blocks per Grid in Y-Dimension (the one with the lowest value) --> e.g. 65535
+Afterwards you can increase the block and grid size carefully under the consideration of the following hints:
+
+**Second Number (Block Size)**
+The maximum block size (which can be used) is the square root of maximum threads per block, in our example it is 32.
+Furthermore, it is a advantage but not a condition that the numper of threads per block is a multiple of 2 (binary system) and 32 (threads per warp).
+It is also an advantage if then numer of threads is not the maxiumum. 
+
 
 First I recommend to run this program 
 The maximum size of threads per block and blocks per grids depends on your _Cuda Device_

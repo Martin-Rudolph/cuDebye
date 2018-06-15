@@ -14,6 +14,7 @@ _Do not use the program until you have read this documentation file completly._
 ## GENERAL INFORMATIONS
 
 - the source code will be uploaded soon
+- I decided to upload all my programming comments, despite of the fact that they probably contain a lot of 
 - programming language is _C++_ and _Cuda_
 - the source code was written and compiled for **Microsoft Windows (x64)** using _Microsoft Visual Studio 2015_ and the _NVidia Cuda Toolkit 8.0_
 - you will need [_Microsoft Visual C++ 2015 Redistributable (x64)_](https://www.microsoft.com/de-de/download/details.aspx?id=48145)

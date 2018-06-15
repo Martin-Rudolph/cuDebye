@@ -39,9 +39,13 @@ As input file for the calculation a so called *.deb-file is necessary. If you ch
 All values/parameters within a line are separated by space.
 
 ### First Line
-This line contains probably the most confusing informations and specify the computing options for the _Cuda Device_ (_Cuda_ capable GPU).
-The first number defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count, as it is not _Cuda_ capable) this number is always 0. 
+This line contains probably the most confusing informations and specifies the computing options for the _Cuda Device_ (_Cuda_ capable GPU).
+The first number defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count, as it is not _Cuda_ capable) this number is 0. 
 Otherwise each installed device has an integer number 0,1,2... choose the one which is most powerfull.
 For checking your PC you can use [_GPU-Z_](https://www.techpowerup.com/gpuz/).
+The second and the third number specifies the block and the grid size for the calculation.
+In the example the block size is **16 x 16 = 256 Threads** and the grid size is **4096 x 4096 = 16777216 Blocks = 4.294967296e9 Threads**.
+The maximum size of threads per block and blocks per grids depends on your _Cuda Device_
+In other words the GPU calculates 
 [_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html)
 

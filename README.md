@@ -80,3 +80,5 @@ As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Ns
 
 **For my GTX 980TI I prefer as block size 16 and as grid size 4096 or 8192, the time out was set to 60 seconds (more than actually necessary).**
 
+
+### Second Line

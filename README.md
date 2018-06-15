@@ -72,7 +72,7 @@ The maximum possible grid size is exactly the smallest grid dimension, in our ex
 Usually for grid sizes exceeding 8192 the speed improvement is negligible and the monitioring of the calculation progress is delayed.
 
 **Modify the GPU time out:**
-As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html) allows to change this value for larger block and grid sizes.
+As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html) allows to change the time out for larger block and grid sizes. You can also disable the time out, but I would not recommend this.
 
 **For my GTX 980TI I prefer as block size 16 and as grid size 4096 or 8192, the time out was set to 60 seconds**
 

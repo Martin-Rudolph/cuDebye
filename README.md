@@ -14,7 +14,7 @@ _Do not use the program until you have read this documentation file completly._
 ## GENERAL INFORMATIONS
 
 - the source code will be uploaded soon
-- I decided to upload all my programming comments despite of the fact, that they are not written in a proper scientific language and probably contain a lot of spelling mistakes (I have never checked these comments)
+- I decided to upload all my programming comments despite of the fact, that they are not written in a proper scientific language and probably contain a lot of spelling mistakes (I have never checked these comments after programming)
 - programming language is _C++_ and _Cuda_
 - the source code was written and compiled for **Microsoft Windows (x64)** using _Microsoft Visual Studio 2015_ and the _NVidia Cuda Toolkit 8.0_ --> you will need [_Microsoft Visual C++ 2015 Redistributable (x64)_](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
 - at least a [_Cuda Compute Capability_](https://de.wikipedia.org/wiki/CUDA#Unterst%C3%BCtzte_GPUs) of 2.1 or higher is recommended

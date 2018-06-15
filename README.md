@@ -57,10 +57,9 @@ Unfortunately this leads to the termination of _cuDebye_.
 The faster your GPU, the larger is the number of distances you can calculate within these 2 seconds.
 
 So you should run the program (see **Running cuDebye**) first with the parameters in the example file _GammaAl2O3_10nm_ and check the following displayed **CUDA PROPERTIES**:
+
 ![Console](/images/cmd1.PNG)
-- Max Threads per Block --> e.g. 1024
-- Threads per Warp --> e.g. 32
-- Max Blocks per Grid in Y-Dimension (the one with the lowest value) --> e.g. 65535
+
 Afterwards you can increase the block and grid size carefully under the consideration of the following hints:
 
 **Choosing the block size:**
@@ -73,8 +72,11 @@ The maximum possible grid size is exactly the smallest grid dimension, in our ex
 Usually for grid sizes exceeding 8192 the speed improvement is negligible and the monitioring of the calculation progress is delayed.
 
 **Modify the GPU time out:**
-As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html) allows to change the time out for larger block and grid sizes ([Nsight 5.2](/images/Nsight1.PNG), [Nsight Monitor Options](/images/Nsight2.PNG)). You can also disable the time out, but I would not recommend this.
+As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html) allows to change the time out for larger block and grid sizes. You can also disable the time out, but I would not recommend this.
 
+![Nsight 5.2](/images/Nsight1.PNG)
+
+![Nsight Monitor Options](/images/Nsight2.PNG)
 
 **For my GTX 980TI I prefer as block size 16 and as grid size 4096 or 8192, the time out was set to 60 seconds (more than actually necessary).**
 

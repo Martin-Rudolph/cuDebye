@@ -25,9 +25,9 @@ _Do not use the program until you have read this documentation file completly._
 
 ## Input File
 
-As input file for the calculation a so called *.deb-file is necessary. If you check the provided example **GammaAl2O3_10nm.deb** you will recognize a short header (line 1-4) followed by the different atom/ion types (line 5-7) and their positions (line 8-117943). For simplicity the first 8 lines are given in the following:
+As input file for the calculation a so called *.deb-file is necessary. If you check the provided example _GammaAl2O3_10nm.deb_ you will recognize a short header (line 1-4) followed by the different atom/ion types (line 5-7) and their positions (line 8-117943). For simplicity the first 8 lines are given in the following:
 
-1. **0 16 4096**
+1. **0 8 1024**
 2. **1.541800 10.00 140.00 0.02**
 3. **356 0.0001 0**
 4. **3**
@@ -40,6 +40,8 @@ All values/parameters within a line are separated by space.
 
 ### First Line
 This line contains probably the most confusing informations and specifies the computing options for the _Cuda Device_ (_Cuda_ capable GPU).
+**However this is also the most important line, since wrong parameters can initiate a program crash.**
+Usually the provided parameters in _GammaAl2O3_10nm.deb_ are safe for most GPUs 
 The first number defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count, as it is not _Cuda_ capable) this number is 0. 
 Otherwise each installed device has an integer number 0,1,2... choose the one which is most powerfull.
 For checking your PC you can use [_GPU-Z_](https://www.techpowerup.com/gpuz/).

@@ -24,7 +24,6 @@ _Do not use the program until you have read this documentation file completly._
 - thus, I use the _Intel's integrated HD graphics_ for my monitors, but you could also use a second dedicated GPU or wait until the calculation is done
 
 ## Input File
-
 As input file for the calculation a so called *.deb-file is necessary. If you check the provided example _GammaAl2O3_10nm.deb_ you will recognize a short header (line 1-4) followed by the different atom/ion types (line 5-7) and their positions (line 8-117943). For simplicity the first 8 lines are given in the following:
 
 ![Input File](/images/header.PNG)
@@ -73,12 +72,17 @@ As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Ns
 
 **For my GTX 980TI I prefer as block size 16 and as grid size 4096 or 8192, the time out was set to 60 seconds (more than actually necessary).**
 
-
 ### Second Line
 This line contains the information about diffractogram, which is calculated.
 
 **The first number** is the wavelength, in our case it is 1.5418 Angstrom (CuKa).
 
-**The following numbers** are the minimum diffraction angle the maximum diffraction angle and the step width, respectively.
+**The following numbers** are the minimum diffraction angle, the maximum diffraction angle and the step width, respectively.
 All values are given in degree.
+The lower and upper limits are 0 and 180 degree.
+However, it is recommended to use typical diffractometer values as e.g. in the input file.
 
+### Third Line
+This line contains the informations for the distance calculation and also specifies which output files are generated.
+
+**The first number** 

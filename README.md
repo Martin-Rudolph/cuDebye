@@ -18,7 +18,8 @@ _Do not use the program until you have read this documentation file completly._
 - programming language is _C++_ and _Cuda_
 - at least a [_Cuda Compute Capability_](https://de.wikipedia.org/wiki/CUDA#Unterst%C3%BCtzte_GPUs) of 2.1 or higher is recommended
 - the program was tested only on the following graphic processing units (GPU): GTX 970, GTX 980TI and GTX 1080
-- the program can use only one GPU, the workload will be around 100%
+- the program can use only one GPU and the workload will be around 100%
 - **if the same GPU is used for display tasks, your screen will freeze during the calculation**
+- thus, I use the _Intel's integrated HD graphics_ to for my monitors, but you could also use a second dedicated GPU or wait until the calculation is done
 
 ## 

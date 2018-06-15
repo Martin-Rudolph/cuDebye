@@ -25,4 +25,7 @@ _Do not use the program until you have read this documentation file completly._
 
 ## Input File
 
-As input file for the calculation a so called *.deb-file is necessary. If you check the provided example **GammaAl2O3_10nm.deb** you will recognize  
+As input file for the calculation a so called *.deb-file is necessary. If you check the provided example **GammaAl2O3_10nm.deb** you will recognize a short header (line 1-4) followed by the different atom/ion types (line 5-7) and their positions (line 8-117943)
+
+###First Line
+

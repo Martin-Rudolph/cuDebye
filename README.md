@@ -58,7 +58,7 @@ The faster your GPU, the larger is the number of distances you can calculate wit
 
 So you should run the program (see **Running cuDebye**) first with the parameters in the example file _GammaAl2O3_10nm_ and check the following displayed **CUDA PROPERTIES**:
 
-![Console](/images/cmd1.PNG)
+![Console](/images/cmd_CudaProp.PNG)
 
 Afterwards you can increase the block and grid size carefully under the consideration of the following hints:
 

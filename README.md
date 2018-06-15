@@ -27,14 +27,14 @@ _Do not use the program until you have read this documentation file completly._
 
 As input file for the calculation a so called *.deb-file is necessary. If you check the provided example **GammaAl2O3_10nm.deb** you will recognize a short header (line 1-4) followed by the different atom/ion types (line 5-7) and their positions (line 8-117943). For simplicity the first 8 lines are given in the following:
 
-1. ) 0 16 4096
-2. ) 1.541800 10.00 140.00 0.02
-3. ) 356 0.0001 0
-4. ) 3
-5. ) 67392 O2- 1.0000 2.0000 3.990247 ... 0.025429
-6. ) 33696 Al3+ 0.8333 2.0000 4.132015 ... 0.019397
-7. ) 16848 Al3+ 1.0000 2.0000 4.132015 ... 0.019397
-8. ) 0.0000 3.9115 98.2772
+1.    0 16 4096
+2.    1.541800 10.00 140.00 0.02
+3.    356 0.0001 0
+4.    3
+5.    67392 O2- 1.0000 2.0000 3.990247 ... 0.025429
+6.    33696 Al3+ 0.8333 2.0000 4.132015 ... 0.019397
+7.    16848 Al3+ 1.0000 2.0000 4.132015 ... 0.019397
+8.    0.0000 3.9115 98.2772
 
 All values/parameters within a line are separated by space.
 

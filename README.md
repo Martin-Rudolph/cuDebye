@@ -11,7 +11,7 @@ In case of commercial use, questions, problems and bugs please write me an e-mai
 AS THIS IS AN EXPERIMENTAL CODE THE USAGE IS AT OWN RISK, we will not take on responsibility for a system crash or anything else.
 Do not use the program until you have read this documentation file completly.
 
-# GENERAL INFORMATIONS
+## GENERAL INFORMATIONS
 
 The source code will be uploaded soon.
 

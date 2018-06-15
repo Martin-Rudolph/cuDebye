@@ -75,3 +75,10 @@ As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Ns
 
 
 ### Second Line
+This line contains the information about diffractogram, which is calculated.
+
+**The first number** is the wavelength, in our case it is 1.5418 Angstrom (CuKa).
+
+**The following numbers** are the minimum diffraction angel the maximum diffraction angle and the step width, respectively.
+All values are given in degree.
+

@@ -25,4 +25,4 @@ _Do not use the program until you have read this documentation file completly._
 
 ## Input File
 
-As input file for the calculation a so called *.deb-file is necessary. If you check the provided test file **GammaAl2O3_10nm.deb** you will recognize  
+As input file for the calculation a so called *.deb-file is necessary. If you check the provided example **GammaAl2O3_10nm.deb** you will recognize  

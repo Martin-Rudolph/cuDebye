@@ -16,7 +16,7 @@ _Do not use the program until you have read this documentation file completly._
 - the source code will be uploaded soon
 - the source code was written and compiled for **Microsoft Windows x64** using _Microsoft Visual Studio 2015_ and the _NVidia Cuda Toolkit 8.0_
 - programming language is _C++_ and _Cuda_
-- the usage is only recommended for the GTX and Titan Series
+- usage is only recommended for the _GTX_ and _Titan_ series of _NVidia_, but generally all GPUs with a _Cuda Compute Capability_ of 2.1 or higher are suitable 
 - the program was tested only on the following graphic processing units (GPU): GTX 970, GTX 980TI and GTX 1080
 - the program can use only one GPU
 - **if the same GPU is used for display tasks, your screen will freeze during the calculation**, as the GPU

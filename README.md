@@ -50,7 +50,7 @@ For checking your PC you can use [_GPU-Z_](https://www.techpowerup.com/gpuz/).
 
 **The second and the third number** specifies the block and the grid size for the calculation.
 In the shown example the block size is **8 x 8 = 64 Threads** and the grid size is **1024 x 1024 = 1e6 Blocks = 67e6 Threads** (approximately). 
-In other words per calculation step around 67 million distances are calculated, if the number of interatomic distances is higher the program will automatically run enouth steps. 
+In other words per calculation step around 67 million distances are calculated, if the number of interatomic distances is higher the program will automatically run enougth steps. 
 Increasing the number of distances per step accelerates the whole calculation process, but increases the time necessary for one step.
 The latter can be a problem as GPUs are usually reseted by _Microsoft Windows_ after a time of 2 seconds without any respond, to prevent a full display freezing.
 Unfortunately this leads to the termination of _cuDebye_.
@@ -65,8 +65,10 @@ Afterwards you can increase the block and grid size carefully under the consider
 **Second Number (Block Size)**
 The maximum block size (which can be used) is the square root of maximum threads per block, in our example it is 32.
 Furthermore, it is a advantage but not a condition that the numper of threads per block is a multiple of 2 (binary system) and 32 (threads per warp).
-It is also an advantage if then numer of threads is not the maxiumum. 
+It is also an advantage if then numer of threads is not at maximum.
 
+**Third Number (Grid Size)**
+The maximum 
 
 First I recommend to run this program 
 The maximum size of threads per block and blocks per grids depends on your _Cuda Device_

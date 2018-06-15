@@ -73,7 +73,7 @@ Usually for grid sizes exceeding 8192 the speed improvement is negligible and th
 
 **Modify the GPU time out:**
 As already mentioned the GPU time out is about 2 seconds. Installing [_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html) allows to change the time out for larger block and grid sizes. You can also disable the time out, but I would not recommend this.
-[Nsight Basic Window](/images/Nsight1.png)
+[Nsight Basic Window](/images/Nsight1.PNG)
 
 **For my GTX 980TI I prefer as block size 16 and as grid size 4096 or 8192, the time out was set to 60 seconds (more than actually necessary).**
 

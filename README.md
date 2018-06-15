@@ -85,4 +85,4 @@ However, it is recommended to use typical diffractometer values like 10-140 degr
 ### Third Line
 This line contains the informations for the distance calculation and also specifies which output files are generated.
 
-**The first number** is the maximum occuring interatomic distance. It is better to choose distance larger than the actual cluster size instead of a number smaller than the maximum distance for the specified atom positions. 
+**The first and the second number** are the maximum occuring interatomic distance and the step width, respectively. In our case an array containing 356/0.0001 It is better to choose distance larger than the actual cluster size instead of a number smaller than the maximum distance for the specified atom positions. Otherwise important data within the GPU could be overwritten, **causing a 

@@ -16,7 +16,7 @@ _Do not use the program until you have read this documentation file completly._
 - the source code will be uploaded soon
 - I decided to upload all my programming comments despite of the fact, that they are not written in a proper scientific language and probably contain a lot of spelling mistakes (I have never checked these comments after programming)
 - programming language is _C++_ and _Cuda_
-- the source code was written and compiled for **Microsoft Windows (x64)** using _Microsoft Visual Studio 2015_ and the _NVIDIA Cuda Toolkit 8.0_ --> you will need [_Microsoft Visual C++ 2015 Redistributable (x64)_](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
+- the source code was written and compiled for **_Microsoft Windows (x64)_** using _Microsoft Visual Studio 2015_ and the _NVIDIA Cuda Toolkit 8.0_ --> you will need [_Microsoft Visual C++ 2015 Redistributable (x64)_](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
 - at least a [_Cuda Compute Capability_](https://de.wikipedia.org/wiki/CUDA#Unterst%C3%BCtzte_GPUs) of 2.1 or higher is recommended
 - the program was tested only on the following graphic processing units (GPU): GTX 970, GTX 980TI and GTX 1080
 - the program can use only one GPU and the workload will be around 100%
@@ -44,11 +44,20 @@ This line contains probably the most confusing informations and specifies the co
 Usually the provided parameters in _GammaAl2O3_10nm.deb_ are safe for most GPUs and should even work on a [GeForce GT 520](http://www.nvidia.de/object/product-geforce-gt-520-de.html). 
 Please do not try GPUs with less power.
 
-The first number defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count, as it is not _Cuda_ capable) this number is 0. 
+**The first number** defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count, as it is not _Cuda_ capable) this number is 0. 
 Otherwise each installed device has an integer number 0,1,2... choose the one which is most powerfull.
 For checking your PC you can use [_GPU-Z_](https://www.techpowerup.com/gpuz/).
-The second and the third number specifies the block and the grid size for the calculation.
-In the example the block size is **16 x 16 = 256 Threads** and the grid size is **4096 x 4096 = 16777216 Blocks = 4.294967296e9 Threads**.
+
+**The second and the third number** specifies the block and the grid size for the calculation.
+In the shown example the block size is **8 x 8 = 64 Threads** and the grid size is **1024 x 1024 = 1e6 Blocks = 67e6 Threads** (approximately). 
+In other words per calculation step around 67 million distances are calculated, if the number of interatomic distances is higher the program will automatically run enouth steps. 
+Increasing the number of distances per step accelerates the whole calculation process, but increases the time necessary for one step.
+The latter can be a problem as GPUs are usually reseted by _Microsoft Windows_ after a time of 2 seconds without any respond, to prevent a full display freezing.
+Unfortunately this leads to the termination of _cuDebye_.
+The faster your GPU, the larger is the number of distances you can calculate within these 2 seconds.
+
+So you should run the program (see **Running cuDebye**) first with the parameters in the example file _GammaAl2O3_ and check displayed **
+First I recommend to run this program 
 The maximum size of threads per block and blocks per grids depends on your _Cuda Device_
 In other words the GPU calculates 
 [_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html)

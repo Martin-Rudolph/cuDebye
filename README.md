@@ -16,7 +16,7 @@ _Do not use the program until you have read this documentation file completly._
 - the source code will be uploaded soon
 - I decided to upload all my programming comments despite of the fact, that they are not written in a proper scientific language and probably contain a lot of spelling mistakes (I have never checked these comments after programming)
 - programming language is _C++_ and _Cuda_
-- the source code was written and compiled for **Microsoft Windows (x64)** using _Microsoft Visual Studio 2015_ and the _NVidia Cuda Toolkit 8.0_ --> you will need [_Microsoft Visual C++ 2015 Redistributable (x64)_](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
+- the source code was written and compiled for **Microsoft Windows (x64)** using _Microsoft Visual Studio 2015_ and the _NVIDIA Cuda Toolkit 8.0_ --> you will need [_Microsoft Visual C++ 2015 Redistributable (x64)_](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
 - at least a [_Cuda Compute Capability_](https://de.wikipedia.org/wiki/CUDA#Unterst%C3%BCtzte_GPUs) of 2.1 or higher is recommended
 - the program was tested only on the following graphic processing units (GPU): GTX 970, GTX 980TI and GTX 1080
 - the program can use only one GPU and the workload will be around 100%
@@ -42,5 +42,6 @@ All values/parameters within a line are separated by space.
 This line contains probably the most confusing informations and specify the computing options for the _Cuda Device_ (_Cuda_ capable GPU).
 The first number defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count, as it is not _Cuda_ capable) this number is always 0. 
 Otherwise each installed device has an integer number 0,1,2... choose the one which is most powerfull.
-For checking your PC you can use [GPU-Z](https://www.techpowerup.com/gpuz/).
+For checking your PC you can use [_GPU-Z_](https://www.techpowerup.com/gpuz/).
+[_NVIDIA Nsight_](http://www.nvidia.com/object/nsight.html)
 

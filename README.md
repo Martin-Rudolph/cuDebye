@@ -40,7 +40,7 @@ All values/parameters within a line are separated by space.
 
 ### First Line
 This line contains probably the most confusing informations and specifies the computing options for the _Cuda Device_ (_Cuda_ capable GPU).
-**However this is also the most important line, since wrong parameters can initiate a program crash.**
+**Unfortunately, this is also the most important line, since wrong parameters can initiate a program crash.**
 Usually the provided parameters in _GammaAl2O3_10nm.deb_ are safe for most GPUs and should even work on a [GeForce GT 520](http://www.nvidia.de/object/product-geforce-gt-520-de.html). 
 Please do not try GPUs with less power.
 

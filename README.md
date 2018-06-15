@@ -43,7 +43,7 @@ This line contains probably the most confusing informations and specifies the co
 **However this is also the most important line, since wrong parameters can initiate a program crash.**
 Usually the provided parameters in _GammaAl2O3_10nm.deb_ are safe for most GPUs and should even work on a [GeForce GT 520](http://www.nvidia.de/object/product-geforce-gt-520-de.html). 
 Please do not try GPUs with less power.
-Furthermore for a fast and efficient calculation you need more _Cuda Cores_
+
 The first number defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count, as it is not _Cuda_ capable) this number is 0. 
 Otherwise each installed device has an integer number 0,1,2... choose the one which is most powerfull.
 For checking your PC you can use [_GPU-Z_](https://www.techpowerup.com/gpuz/).

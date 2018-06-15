@@ -42,5 +42,5 @@ All values/parameters within a line are separated by space.
 This line contains probably the most confusing informations and specify the computing options for the _Cuda Device_ (_Cuda_ capable GPU).
 The first number defines the _Cuda Device_ which is used for the calculation. If you have only one (the onboard GPU, e.g. does not count, as it is not _Cuda_ capable) this number is always 0. 
 Otherwise each installed device has an integer number 0,1,2... choose the one which is most powerfull.
-For checking your PC for GPU you can use [GPU-Z](https://www.techpowerup.com/gpuz/).
+For checking your PC you can use [GPU-Z](https://www.techpowerup.com/gpuz/).
 

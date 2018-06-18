@@ -89,7 +89,7 @@ This line contains the informations for the distance calculation and also specif
 
 **The first and the second number** are the maximum occuring interatomic distance and the step width, respectively. These values are used to allocate an integer array for counting the distances. In our case this array comprises **356/0.0001 = 3.6e6 numbers = 30 MB** (approximately). The memory location is associated with a discrete distance, when a distance is calculated the counter for this distance is increased by one. **Choosing a maximum distance lower than the actual maximum distance between the atom positions will result probably in a program crash**, because non reserved memory locations are overwritten. Therefore, it is better to choose always a distance larger than the actual cluster size (around 5%). Increasing the step width reduces also the memory necessary but reduces also the calculation accuracy significantly. Decreasing the step width do not improve the pattern quality significantly, as only single precision operations are used for the distance calculation. The value 0.0001 is recommended. **If you have large clusters keep an eye on your GPU memory**. Start with small clusters and check the memory consumption. Commonly with 3GB or more dedicated GPU memory there should be no problems.
 
-![Free Memory](/images/cmd_Distance.PNG)
+![Free Memory](/images/cmd_Memory.PNG)
 
 **The third number** defines the generated output files:
 - 0: only a intensity file (debI) is generated, the first column contains the diffraction angles and the second column the calculated intensities
@@ -99,7 +99,7 @@ This line contains the informations for the distance calculation and also specif
 Writing distance histograms will slow down the routine.
 In our example we have 3 different subgroups, thus **(3²+3)/2 = 6** distance histogram files are generated.
 
-![output files](/images/output.PNG)
+![Output Files](/images/output.PNG)
 
 ### Fourth Line
 This line contains only the number _x_ of different subgroups.
@@ -118,7 +118,7 @@ _cuDeby_ will number the first subgroup with index 0.
 
 **The last eleven numbers** are the parameters a1-a5, b1-b5 and c for the atomic scattering factor. A list copied from [_RIETNAN_](http://www.ccp14.ac.uk/ccp/web-mirrors/rietan/fujioizumi/rietan/angle_dispersive/angle_dispersive.html) can be found in folder _SupplementaryMaterials_.
 
-![atomic scattering factors](/images/asf.PNG)
+![Atomic Scattering Factors](/images/asf.PNG)
 
 ### Line 5+_x_
 

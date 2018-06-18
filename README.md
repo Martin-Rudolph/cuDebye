@@ -126,9 +126,11 @@ In our example the first 67392 atom positions correspond to the atoms of subgrou
 **Wrong atom numbers specified for the subgroups and false ordering of the positions will result in false diffraction patterns.**
 
 ### Check your Parameters
+In the cmd prompt you can check if all parameters were read correct:
 
 ![Atomic Scattering Factors](/images/cmd_Para.PNG)
 
+### Too complicated -> Try xyz2deb
 
 
 

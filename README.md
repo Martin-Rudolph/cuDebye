@@ -96,3 +96,5 @@ This line contains the informations for the distance calculation and also specif
 
 Writing distance histograms will slow down the routine.
 In our example we have 3 different subgroups, thus **(3²+3)/2 = 6** distance histogram files are generated.
+
+![output files](/images/output.PNG)

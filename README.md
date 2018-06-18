@@ -103,10 +103,13 @@ In our example we have 3 different subgroups, thus **(3²+3)/2 = 6** distance hi
 This line contains only the number _x_ of different subgroups.
 A subgroup comprises all atoms/ions with the same properties, like charge, occupancy, isotropic temperature factor and atomic scattering factors.
 
-### Fifth Line up to Line 4+x
+### Fifth Line up to Line 4+_x_
 Every line contains the following information for one subgroup.
 The subgroups are given in ascending order.
-The first subgroup is numberd by the index 0.
+_cuDeby_ will number the first subgroup with index 0.
+
+**The first number** is the number of atoms/ions in the subgroup,  
+
 
 
 

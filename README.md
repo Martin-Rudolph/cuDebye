@@ -102,10 +102,10 @@ In our example we have 3 different subgroups, thus **(3²+3)/2 = 6** distance hi
 ![Output Files](/images/output.PNG)
 
 ### Fourth Line
-This line contains only the number _x_ of different subgroups.
+This line contains only the number _p_ of different subgroups.
 A subgroup comprises all atoms/ions with the same properties, like charge, occupancy, isotropic temperature factor and atomic scattering factors.
 
-### Fifth Line up to Line 4+_x_
+### Fifth Line up to Line 4+_p_
 Every line contains the following information for one subgroup.
 The subgroups are given in ascending order.
 _cuDeby_ will number the first subgroup with index 0.
@@ -120,11 +120,14 @@ _cuDeby_ will number the first subgroup with index 0.
 
 ![Atomic Scattering Factors](/images/asf.PNG)
 
-### Line 5+_x_
+### Line 5+_x_ and the rest
+All further lines contain the positions x, y and z of the atoms in Angstrom, respectively.
+In our example the first 67392 atom positions correspond to the atoms of subgroup 0 followed by the 33696 positions of subgroup 1 and the 16848 positions of subgroup 2.
+**Wrong atom numbers specified for the subgroups and false ordering of the positions will result in false diffraction patterns.**
 
-Finally, the subgroups can be checked within the cmd.
+### Check your Parameters
 
-
+![Atomic Scattering Factors](/images/cmd_Para.PNG)
 
 
 

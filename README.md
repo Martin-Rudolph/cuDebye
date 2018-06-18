@@ -114,7 +114,7 @@ _cuDeby_ will number the first subgroup with index 0.
 
 **Fourth and fifth number** are the occupacy and the isotropic temperature factor, respectively.
 
-**The last eleven numbers** are the parameters a1-a5, b1-b5 and c for the atomic scattering factor. 
+**The last eleven numbers** are the parameters a1-a5, b1-b5 and c for the atomic scattering factor. A list can be found in 
 
 
 

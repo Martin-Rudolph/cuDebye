@@ -91,10 +91,23 @@ This line contains the informations for the distance calculation and also specif
 
 **The third number** defines the generated output files:
 - 0: only a intensity file (debI) is generated, the first column contains the diffraction angles and the second column the calculated intensities
-- 1: only distance histogram files are generated for each subgroup combination, the first column contains the distances in Angstrom and the second column the frequencies (e.g. the file for the interatomic distances between the subgroups m and n is terminated by debxmxn)
+- 1: only distance histogram files are generated for each subgroup combination, the first column contains the distances in Angstrom and the second column the frequencies (e.g. the file for the interatomic distances between the subgroups _m_ and _n_ is terminated by debxmxn)
 - 2: intensity file and distance histograms are created
 
 Writing distance histograms will slow down the routine.
 In our example we have 3 different subgroups, thus **(3²+3)/2 = 6** distance histogram files are generated.
 
 ![output files](/images/output.PNG)
+
+### Fourth Line
+This line contains only the number _x_ of different subgroups.
+A subgroup comprises all atoms/ions with the same properties, like charge, occupancy, isotropic temperature factor and atomic scattering factors.
+
+### Fifth Line up to Line 4+x
+Every line contains the following information for one subgroup.
+The subgroups are given in ascending order.
+The first subgroup is numberd by the index 0.
+
+
+
+

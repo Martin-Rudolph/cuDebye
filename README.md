@@ -116,7 +116,7 @@ _cuDeby_ will number the first subgroup with index 0.
 
 **The last eleven numbers** are the parameters a1-a5, b1-b5 and c for the atomic scattering factor. A list copied from [_RIETNAN_](http://www.ccp14.ac.uk/ccp/web-mirrors/rietan/fujioizumi/rietan/angle_dispersive/angle_dispersive.html) can be found in folder _SupplementaryMaterials_ (use an enhanced texteditor for opening).
 
-
+![atomic scattering factors](/images/asf.PNG)
 
 
 

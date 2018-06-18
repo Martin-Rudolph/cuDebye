@@ -108,7 +108,14 @@ Every line contains the following information for one subgroup.
 The subgroups are given in ascending order.
 _cuDeby_ will number the first subgroup with index 0.
 
-**The first number** is the number of atoms/ions in the subgroup,  
+**The first number** is the number of atoms/ions in the subgroup.
+
+**The second argument** is the atom/ion name.
+
+**Fourth and fifth number** are the occupacy and the isotropic temperature factor, respectively.
+
+**The last eleven numbers** are the parameters a1-a5, b1-b5 for the atomic scattering factor. 
+
 
 
 

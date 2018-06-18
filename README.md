@@ -116,9 +116,11 @@ _cuDeby_ will number the first subgroup with index 0.
 
 **Fourth and fifth number** are the occupacy and the isotropic temperature factor, respectively.
 
-**The last eleven numbers** are the parameters a1-a5, b1-b5 and c for the atomic scattering factor. A list copied from [_RIETNAN_](http://www.ccp14.ac.uk/ccp/web-mirrors/rietan/fujioizumi/rietan/angle_dispersive/angle_dispersive.html) can be found in folder _SupplementaryMaterials_.
+**The last eleven numbers** are the parameters _a_1-_a_5, _b_1-_b_5 and _c_ for the atomic scattering factor. A list copied from [_RIETNAN_](http://www.ccp14.ac.uk/ccp/web-mirrors/rietan/fujioizumi/rietan/angle_dispersive/angle_dispersive.html) can be found in folder _SupplementaryMaterials_.
 
 ![Atomic Scattering Factors](/images/asf.PNG)
+
+For neutron diffraction the scattering factors are constant, set all _a_ and _b_ parameters to zero and use a proper _c_ value.
 
 ### Line 5+_x_ and the rest
 All further lines contain the positions x, y and z of the atoms in Angstrom, respectively.

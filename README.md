@@ -178,7 +178,16 @@ You can process and plot the simple output files with any program you like even 
 However, some functions are provided in the folder [_Matlab_](/Matlab).
 
 ### Plotting the Diffraction Patterns
-Just open [_plotdebi.m_](/Matlab/plotdebi.m) with the program [_Matlab_](https://mathworks.com/) and run the function via _Run_ or by typing plotdebi into the the _Command Window_. In the latter case it is essential that the function is in your current selected working directory, when pressing the _Run_ button _Matlab_ will ask you to change the directory, if it is not correct.
+Just open [_plotdebi.m_](/Matlab/plotdebi.m) with the program [_Matlab_](https://mathworks.com/) and run the function via _Run_ or by typing **plotdebi** into the the _Command Window_. 
+In the latter case it is essential that the function is in your current selected working directory, when pressing the _Run_ button _Matlab_ will ask you to change the directory, if a directory change is necessary.
 
 ![Run a plotdebi.m](/images/plotdebi.PNG)
+
+The addionnal arguments _'int'_ and _'max'_ can be passed to the function for normalized intensities.
+After running the function you are asked to select one or more debI files for plotting.
+For all selected files also the intensity average is calculated.
+This makes no sense for completly different files or for non-defective structures, but in case of defective nano-crystallites it is useful to generate the structure several times with reasonable random parameters and to average the calculated intensities.
+In the following example the calculated diffraction pattern of an undistorted cubic uranium hydride nanocrystallite with an edge length of 7 nm is shown:
+
+
 

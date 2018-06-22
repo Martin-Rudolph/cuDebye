@@ -93,7 +93,7 @@ This line contains the informations for the distance calculation and also specif
 
 **The third number** defines the generated output files:
 - 0: only a intensity file (debI) is generated, the first column contains the diffraction angles and the second column the calculated intensities
-- 1: only distance histogram files are generated for each subgroup combination, the first column contains the distances in Angstrom and the second column the frequencies (e.g. the file for the interatomic distances between the subgroups _m_ and _n_ is terminated by debxmxn)
+- 1: only distance histogram files are generated for each subgroup combination, the first column contains the distances in Angstrom and the second column the frequencies (e.g. the file for the interatomic distances between the subgroups m and n is terminated by debxmxn)
 - 2: intensity file and distance histograms are created
 
 Writing distance histograms will slow down the routine.
@@ -102,10 +102,10 @@ In our example we have 3 different subgroups, thus **(3²+3)/2 = 6** distance hi
 ![Output Files](/images/output.PNG)
 
 ### Fourth Line
-This line contains only the number _p_ of different subgroups.
+This line contains only the number p of different subgroups.
 A subgroup comprises all atoms/ions with the same properties, like charge, occupancy, isotropic temperature factor and atomic scattering factors.
 
-### Fifth Line up to Line 4+_p_
+### Fifth Line up to Line 4+p
 Every line contains the following information for one subgroup.
 The subgroups are given in ascending order.
 _cuDeby_ will number the first subgroup with index 0.
@@ -114,15 +114,15 @@ _cuDeby_ will number the first subgroup with index 0.
 
 **The second argument** is the atom/ion name.
 
-**Fourth and fifth number** are the occupacy and the isotropic temperature factor, respectively.
+**The third and fourth number** are the occupacy and the isotropic temperature factor, respectively.
 
 **The last eleven numbers** are the parameters a1-a5, b1-b5 and c for the atomic scattering factor. A list copied from [_RIETNAN_](http://www.ccp14.ac.uk/ccp/web-mirrors/rietan/fujioizumi/rietan/angle_dispersive/angle_dispersive.html) can be found [here](/Matlab/Tables/atomic_scattering_factors_RIETAN.txt).
 
 ![Atomic Scattering Factors](/images/asf.PNG)
 
-For neutron diffraction the scattering factors are constant, set all _a_ and _b_ parameters to zero and use a proper _c_ value.
+For neutron diffraction the scattering factors are constant, set all a and b parameters to zero and use a proper c value.
 
-### Line 5+_x_ and the rest
+### Line 5+p and Following
 All further lines contain the positions x, y and z of the atoms in Angstrom, respectively.
 In our example the first 67392 atom positions correspond to the atoms of subgroup 0 followed by the 33696 positions of subgroup 1 and the 16848 positions of subgroup 2.
 **Wrong atom numbers specified for the subgroups and false ordering of the positions will result in false diffraction patterns.**
@@ -136,13 +136,15 @@ In the _Windows_ console (cmd) you can check if all parameters were read correct
 ![Atomic Scattering Factors](/images/cmd_Para.PNG)
 
 ### Too Complicated, Try xyz2deb
-More comprehensive and and easier to generate is a xyz-file, where each line contains 6 arguments separated by whitspace.
+More comprehensive and and easier to generate is a xyz-file, where each line contains 6 arguments separated by whitspace:
+
+
 
 **The first argument** is the atom/ion name.
 
 **The second, third and fourth values** are the atom positons x, y and z, respectively. These values are given in Angstrom.
 
-**The fourth and fifth values** are 
+**The fourth and fifth values** are the occupancy and the isotropic temperature factor, respectively.
 
 are the occupacy and the isotropic temperature factor, respectively.
 

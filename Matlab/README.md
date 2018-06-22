@@ -2,7 +2,7 @@
 
 **The scripts need at least a 2014er version. All scripts were written with the version 2016a.**
 
-These scripts can generate deb-files from much more comprehensive xyz-files, plot structures from a deb-file and view the
+These scripts can generate deb-files from much more comprehensive xyz-files, view structures from a deb-file and plot the
 calculated diffraction patterns stored in a debI-file.
 
 However, if you are looking for a open source variant you can try these scrips with 

@@ -23,7 +23,7 @@ _Do not use the program until you have read this documentation file completly._
 - thus, I use the _Intel's integrated HD graphics_ for my monitors, but you could also use a second dedicated GPU or wait until the calculation is done
 
 
-## Input File
+## 2 Input File
 As input file for the calculation a so called *.deb-file is necessary. When you check the provided example [_GammaAl2O3_10nm.deb_](Data/GammaAl2O3_10nm.deb) you will recognize a short header (line 1-4) followed by the different atom/ion types (line 5-7) and their positions (line 8-117943). For simplicity the first 8 lines are given in the following:
 
 ![Input File](/images/header.PNG)
@@ -158,7 +158,7 @@ Alternatively, you can run the function without GUI by specifying the file, like
 In the function [_xyz2deb.m_](/Matlab/xyz2deb.m): you can also edit the first lines, so your favourite properties are loaded automatically.
 _You have not to worry about the maximum cluster size._
 
-## Running cuDebye
+## 3 Running cuDebye
 First run the _Windows Command Prompt_ (cmd) and navigate to your folder containing _cuDebye.exe_, _cudart32_80.dll_ and _cudart64_80.dll_. Then you can start _cuDebye_ and pass a deb-file for the calculation:
 
 - **cd** _PathWhereYouExtractedTheBranch_
@@ -171,7 +171,7 @@ After the program has finished the calculation, you can check the output for war
 **It is recommended to keep the original folder structure from the branch**, but you can create new folders in the existing ones.
 Nevertheless, you should pass on names of parent or children folders which containing folder names from the branch.
 
-## Plotting
+## 4 Plotting
 You can process and plot the simple output files with any program you like even with _Mircrosoft Excel_.
 However, some functions are provided in the folder [_Matlab_](/Matlab).
 
@@ -203,6 +203,7 @@ Everything can be rotated, using the marked button.
 ## Running Multiple Files
 It is also possible to run multiple xyz- and/or deb-files using the function [_multisim_](/Matlab/multisim.m).
 Just select the obvisious [folder](/Data/SelectToTestMultiSim) and let the function do the work.
+**Do not forget to set your own _Cuda_ properties in the first lines of [xyz2deb.m](/Matlab/xyz2deb.m) to prevent crashes for auto-generated deb-files.**
 xyz-files will be only converted to deb files, if these are missing and the cuDebye will only start, if no debI-file exists for the corresponding deb-file.
 To recalculate a changed xyz-file, you have to delete the corresponding output files (deb, debI) first.
 

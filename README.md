@@ -152,6 +152,8 @@ In such a case the occupancy is set to 1 and the isotropic temperature factor to
 This allows to use exported xyz-files from [_Vesta_](http://jp-minerals.org/vesta/en/) directly after the removal of the header. 
 With an enhanced text editor providing column wise operations and enhanced replacement options, like [_Notepad++_](https://notepad-plus-plus.org/) occupancies and temperature facotors can be supplemented.
 
+For the conversion of xyz-file just run the [_Matlab_](https://en.mathworks.com/) script
+
 C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz
 
 

@@ -180,4 +180,5 @@ However, some functions are provided in the folder [_Matlab_](/Matlab).
 ### Plotting the Diffraction Patterns
 Just open [_plotdebi.m_](/Matlab/plotdebi.m) with the program [_Matlab_](https://mathworks.com/) and run the function via _Run_ or by typing plotdebi into the the _Command Window_. In the latter case it is essential that the function is in your current selected working directory, when pressing the _Run_ button _Matlab_ will ask you to change the directory, if it is not correct.
 
+![Run a plotdebi.m](/images/plotdebi.PNG)
 

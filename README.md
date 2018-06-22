@@ -128,7 +128,7 @@ In our example the first 67392 atom positions correspond to the atoms of subgrou
 **Wrong atom numbers specified for the subgroups and false ordering of the positions will result in false diffraction patterns.**
 
 Exceeding the magnitude of 999.9999 Angstrom for x, y or z can decrease the accuracy, as only single precision numbers are used to store the atomic positions. 
-For this reason, it is recommended to shift the cluster center to zero.
+For this reason, it is recommended to shift the cluster center to 0.
 
 ### Check your Parameters
 In the _Windows_ console (cmd) you can check if all parameters were read correct:
@@ -136,15 +136,20 @@ In the _Windows_ console (cmd) you can check if all parameters were read correct
 ![Atomic Scattering Factors](/images/cmd_Para.PNG)
 
 ### Too Complicated, Try xyz2deb
-More comprehensive and and easier to generate is a xyz-file, where each line contains 6 arguments separated by whitspace:
+More comprehensive and and easier to generate is a [xyz-file](/Data/UH3_7nm.xyz), where specific ordering is no condition.  
+Each line contains 6 arguments separated by whitspace, specifying the properties of a single atom/ion:
 
-![xyz2deb](/images/xyz2deb.PNG)
+![xyz-file](/images/UH3xyz.PNG)
 
-**The first argument** is the atom/ion name.
+**The first argument** is the atom/ion type. This abbreviation should be consistent with the symbols used for the [atomic scattering factors](/Matlab/Tables/atomic_scattering_factors_RIETAN.txt).
 
 **The second, third and fourth values** are the atom positons x, y and z, respectively. These values are given in Angstrom.
 
 **The fourth and fifth values** are the occupancy and the isotropic temperature factor, respectively.
+
+It is also possible to omit the isotropic temperature factors or both the isotropic temperature factors and the occupancies (see [*UH3_7nm_reduced.xyz*](Data/UH3_7nm_reduced.xyz)).
+In such a case the occupancy is set to 1 and the isotropic temperature factor to 0.
+
 
 
 C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz

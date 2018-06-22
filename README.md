@@ -173,3 +173,6 @@ After the program has finished the calculation, you can check the output for war
 **It is recommended to keep the original folder structure from the branch**, but you can create new folders in the existing ones.
 Nevertheless, you should pass on names of parent or children folders which containing folder names from the branch.
 
+## Plotting
+You can process and plot the simple output files with any program you like.
+However, some [_Matlab_](https://mathworks.com/) functions are provided in the folder [_MatlabScripts_](/MatlabScripts)

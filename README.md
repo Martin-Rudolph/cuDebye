@@ -203,5 +203,6 @@ However, other parts can be specified by executing **viewdeb([xmin,xmax; ymin,ym
 Everything can be rotated, using the marked button.
 
 ## Running Multiple Files
-It is also possible to run multiple xyz- and/or deb-files using the function _multisim_ 
+It is also possible to run multiple xyz- and/or deb-files using the function [_multisim_](/Matlab/multisim.m).
+Just select the obvisious [folder](/Data/SelectToTestMultiSim) and let the function do the work. 
 

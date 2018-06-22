@@ -187,7 +187,7 @@ The addionnal arguments _'int'_ and _'max'_ can be passed to the function for no
 After running the function you are asked to select one or more debI files for plotting.
 For all selected files also the intensity average is calculated.
 This makes no sense for completly different files or for non-defective structures, but in case of defective nano-crystallites it is useful to generate the structure several times with reasonable random parameters and to average the calculated intensities.
-In the following example the calculated diffraction pattern of an undistorted cubic uranium hydride nanocrystallite with an edge length of 7 nm is shown:
+In the following example the calculated [diffraction pattern](/Data/UH3_7nm.debI) of an undistorted cubic uranium hydride nanocrystallite with an edge length of 7 nm is shown:
 
-
+![UH3 Diffraction Pattern](/images/UH3debI.PNG)
 

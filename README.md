@@ -17,7 +17,7 @@ _Do not use the program until you have read this documentation file completly._
 - I decided to upload all my programming comments despite of the fact, that they are not written in a proper scientific language and contain a lot of spelling mistakes (in fact the english is horrible, but I have no muse to check the comments)
 - programming language is _C++_ and _Cuda_
 - the source code was written and compiled for **_Microsoft Windows (x64)_** using _Microsoft Visual Studio 2015_ and the _NVIDIA Cuda Toolkit 8.0_ --> you will need [_Microsoft Visual C++ 2015 Redistributable (x64)_](https://www.microsoft.com/de-de/download/details.aspx?id=48145)
-- copying the source code can introduce errors, e.g. <<<LaunchKernel>>> to << <LaunchKernel >> >, commonly the compiler can handle that
+- copying the source code can introduce errors, e.g. <<< LaunchKernel >>> to << < LaunchKernel >> >, commonly the compiler can handle that
 - at least a [_Cuda Compute Capability_](https://de.wikipedia.org/wiki/CUDA#Unterst%C3%BCtzte_GPUs) of 2.1 or higher is recommended
 - the program was tested only on the following graphic processing units (GPU): GTX 970, GTX 980TI and GTX 1080
 - the program can use only one GPU and the workload will be around 100%

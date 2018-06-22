@@ -152,9 +152,11 @@ In such a case the occupancy is set to 1 and the isotropic temperature factor to
 This allows to use exported xyz-files from [_Vesta_](http://jp-minerals.org/vesta/en/) directly after the removal of the header. 
 With an enhanced text editor providing column wise operations and enhanced replacement options, like [_Notepad++_](https://notepad-plus-plus.org/) occupancies and temperature facotors can be supplemented.
 
-For the conversion of xyz-file just run the [_Matlab_](https://en.mathworks.com/) script
+For the conversion of a xyz-file you can run the [_Matlab_](https://mathworks.com/) script [_xyz2deb.m_](/Matlab/xyz2deb.m):
 
-C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz
+![xyz2deb](/images/xyz2deb.PNG)
+
+or run the function via the command window without GUI by specifying the file, like *xyz2deb('C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz')*.
 
 
 ## Running cuDebye

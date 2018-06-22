@@ -1,4 +1,4 @@
-# This folder contains some useful [_Matlab_](https://de.mathworks.com) scripts.
+# This folder contains some useful [_Matlab_](https://en.mathworks.com) scripts.
 
 **The scripts need at least a 2014er version. All scripts were written with the version 2016a.**
 

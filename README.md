@@ -175,6 +175,6 @@ Nevertheless, you should pass on names of parent or children folders which conta
 
 ## Plotting
 You can process and plot the simple output files with any program you like even with _Mircrosoft Excel_.
-However, some [_Matlab_](https://mathworks.com/) functions are provided in the folder [_MatlabScripts_](/MatlabScripts).
+However, some [_Matlab_](https://mathworks.com/) functions are provided in the folder [_Matlab_](/Matlab).
 
 ### Plotting the Diffraction Patterns

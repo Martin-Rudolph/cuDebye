@@ -149,8 +149,8 @@ Each line contains 6 arguments separated by whitspace, specifying the properties
 
 It is also possible to omit the isotropic temperature factors or both the isotropic temperature factors and the occupancies (see [*UH3_7nm_reduced.xyz*](Data/UH3_7nm_reduced.xyz)).
 In such a case the occupancy is set to 1 and the isotropic temperature factor to 0.
-
-
+This allows to use exported xyz-files from [_Vesta_](http://jp-minerals.org/vesta/en/) directly after the removal of the header. 
+With an enhanced text editor providing column wise operations and enhanced replacement options, like [_Notepad++_](https://notepad-plus-plus.org/) occupancies and temperature facotors can be supplemented.
 
 C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz
 

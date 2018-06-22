@@ -135,6 +135,5 @@ In the cmd prompt you can check if all parameters were read correct:
 ### Too complicated -> Try xyz2deb
 
 
-
-
-
+## Running cuDebye
+During the program run in the _Windows_ console (cmd) some properties and the progress is displayed, a full example is given in the [Log-File](Data/cmd-log.txt). Afterwards you can search warnings and errors in this output (copy it and use full text search).

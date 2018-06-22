@@ -152,11 +152,11 @@ In such a case the occupancy is set to 1 and the isotropic temperature factor to
 This allows to use exported xyz-files from [_Vesta_](http://jp-minerals.org/vesta/en/) directly after the removal of the header. 
 With an enhanced text editor providing column wise operations and enhanced replacement options, like [_Notepad++_](https://notepad-plus-plus.org/) occupancies and temperature facotors can be supplemented.
 
-For the conversion of a xyz-file you can run the [_Matlab_](https://mathworks.com/) function [_xyz2deb.m_](/Matlab/xyz2deb.m):
+For the conversion of a xyz-file you can run the [_Matlab_](https://mathworks.com/) function [_xyz2deb.m_](/Matlab/xyz2deb.m) by typing **xyz2deb** in the _Command Window_ (see also Plotting):
 
 ![xyz2deb](/images/xyz2deb.PNG)
 
-Alternatively, you can run the function via the _Command Window_ without GUI by specifying the file, like *xyz2deb('C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz')*.
+Alternatively, you can run the function without GUI by specifying the file, like **xyz2deb(_'C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz'_)**.
 In the function [_xyz2deb.m_](/Matlab/xyz2deb.m): you can also edit the first lines, so your favourite properties are loaded automatically.
 _You have not to worry about the maximum cluster size._
 
@@ -178,4 +178,4 @@ You can process and plot the simple output files with any program you like even 
 However, some functions are provided in the folder [_Matlab_](/Matlab).
 
 ### Plotting the Diffraction Patterns
-Just open [_plotdebi.m_](/Matlab/plotdebi.m) with the program [_Matlab_](https://mathworks.com/) and run the function by typing plotdebi into the the _Command Window_
+Just open [_plotdebi.m_](/Matlab/plotdebi.m) with the program [_Matlab_](https://mathworks.com/) and run the function via by typing plotdebi into the the _Command Window_

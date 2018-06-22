@@ -191,3 +191,8 @@ In the following example the calculated [diffraction pattern](/Data/UH3_7nm.debI
 
 ![UH3 Diffraction Pattern](/images/UH3debI.PNG)
 
+In case of a single pattern the average line is fully superimposed.
+
+### View the Structure
+The structure stored in a deb-file can be visualized with the function [_viewdeb.m_](/Matlab/viewdeb.m)
+

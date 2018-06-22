@@ -1,8 +1,6 @@
 # cuDebye Version 1.5
 A fast experimental cuda routine for the evaluation of powder diffraction patterns from atomistic models.
 
-### AT THE MOMENT THIS FILE AND THE BRANCH ARE UNDER CONSTRUCTION DO NOT USE THE PROGRAM UNTIL THIS LINE IS DELETED.
-
 This is an open source software, you can use and redistribute everything, **but you are encouraged to cite our publicaction:**
 - will be added soon
 
@@ -204,5 +202,7 @@ Everything can be rotated, using the marked button.
 
 ## Running Multiple Files
 It is also possible to run multiple xyz- and/or deb-files using the function [_multisim_](/Matlab/multisim.m).
-Just select the obvisious [folder](/Data/SelectToTestMultiSim) and let the function do the work. 
+Just select the obvisious [folder](/Data/SelectToTestMultiSim) and let the function do the work.
+xyz-files will be only converted to deb files, if these are missing and the cuDebye will only start, if no debI-file exists for the corresponding deb-file.
+To recalculate a changed xyz-file, you have to delete the corresponding output files (deb, debI) first.
 

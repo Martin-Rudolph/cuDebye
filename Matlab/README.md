@@ -9,4 +9,4 @@ However, if you are looking for a open source variant you can try these scrips w
 [_GnuOctave_](https://www.gnu.org/software/octave/), but there is no warranty, that these scripts run without problems.
 
 Alternativley, you have to write your own scripts e.g. with [_Python_](https://python-xy.github.io/downloads.html) or
-[_Gnuplot_][gnuhttp://www.gnuplot.info/.]
+[_Gnuplot_][gnuhttp://www.gnuplot.info/].

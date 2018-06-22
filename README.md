@@ -156,7 +156,7 @@ For the conversion of a xyz-file you can run the [_Matlab_](https://mathworks.co
 
 ![xyz2deb](/images/xyz2deb.PNG)
 
-Alternatively, you can run the function via the command window without GUI by specifying the file, like *xyz2deb('C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz')*.
+Alternatively, you can run the function via the _Command Window_ without GUI by specifying the file, like *xyz2deb('C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz')*.
 In the function [_xyz2deb.m_](/Matlab/xyz2deb.m): you can also edit the first lines, so your favourite properties are loaded automatically.
 _You have not to worry about the maximum cluster size._
 
@@ -175,6 +175,7 @@ Nevertheless, you should pass on names of parent or children folders which conta
 
 ## Plotting
 You can process and plot the simple output files with any program you like even with _Mircrosoft Excel_.
-However, some [_Matlab_](https://mathworks.com/) functions are provided in the folder [_Matlab_](/Matlab).
+However, some functions are provided in the folder [_Matlab_](/Matlab).
 
 ### Plotting the Diffraction Patterns
+Just open [_plotdebi.m_](/Matlab/plotdebi.m) with the program [_Matlab_](https://mathworks.com/) and run the function by typing plotdebi into the the _Command Window_

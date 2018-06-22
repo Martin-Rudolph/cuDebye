@@ -174,5 +174,7 @@ After the program has finished the calculation, you can check the output for war
 Nevertheless, you should pass on names of parent or children folders which containing folder names from the branch.
 
 ## Plotting
-You can process and plot the simple output files with any program you like.
-However, some [_Matlab_](https://mathworks.com/) functions are provided in the folder [_MatlabScripts_](/MatlabScripts)
+You can process and plot the simple output files with any program you like even with _Mircrosoft Excel_.
+However, some [_Matlab_](https://mathworks.com/) functions are provided in the folder [_MatlabScripts_](/MatlabScripts).
+
+### Plotting the Diffraction Patterns

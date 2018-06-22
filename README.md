@@ -158,6 +158,7 @@ For the conversion of a xyz-file you can run the [_Matlab_](https://mathworks.co
 
 Alternatively, you can run the function via the command window without GUI by specifying the file, like *xyz2deb('C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz')*.
 In the function [_xyz2deb.m_](/Matlab/xyz2deb.m): you can also edit the first lines, so your favourite properties are loaded automatically.
+_You have not to worry about the maximum cluster size._
 
 ## Running cuDebye
 During the program run in the _Windows_ console (cmd) some properties and the progress is displayed, a full example is given in the [Log-File](Data/cmd-logfile.txt). Afterwards you can search warnings and errors in this output (copy it and use full text search).

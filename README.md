@@ -131,7 +131,7 @@ Exceeding the magnitude of 999.9999 Angstrom for x, y or z can decrease the accu
 For this reason, it is recommended to shift the cluster center to 0.
 
 ### Check your Parameters
-In the _Windows_ console (cmd) you can check if all parameters were read correct:
+In the _Windows Command Prompt_ (cmd) you can check if all parameters were read correct:
 
 ![Atomic Scattering Factors](/images/cmd_Para.PNG)
 
@@ -161,4 +161,6 @@ In the function [_xyz2deb.m_](/Matlab/xyz2deb.m): you can also edit the first li
 _You have not to worry about the maximum cluster size._
 
 ## Running cuDebye
+First run the _Windows Command Prompt_ (cmd) and navigate to your folder containing _cuDebye.exe_, __
+Keeping the folder structure from the branch after unpacking you can open the _Windows_ console (cmd) 
 During the program run in the _Windows_ console (cmd) some properties and the progress is displayed, a full example is given in the [Log-File](Data/cmd-logfile.txt). Afterwards you can search warnings and errors in this output (copy it and use full text search).

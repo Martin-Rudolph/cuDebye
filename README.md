@@ -138,15 +138,13 @@ In the _Windows_ console (cmd) you can check if all parameters were read correct
 ### Too Complicated, Try xyz2deb
 More comprehensive and and easier to generate is a xyz-file, where each line contains 6 arguments separated by whitspace:
 
-
+![xyz2deb](/images/xyz2deb.PNG)
 
 **The first argument** is the atom/ion name.
 
 **The second, third and fourth values** are the atom positons x, y and z, respectively. These values are given in Angstrom.
 
 **The fourth and fifth values** are the occupancy and the isotropic temperature factor, respectively.
-
-are the occupacy and the isotropic temperature factor, respectively.
 
 
 C:\Users\rudolp2\Desktop\Cuda\cuDebye-v1.5\Data\UH3_7nm.xyz

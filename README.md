@@ -168,5 +168,8 @@ First run the _Windows Command Prompt_ (cmd) and navigate to your folder contain
 
 ![run](/images/run.PNG)
 
-It is recommended to keep the original folder structure from the branch, but you can create new folders in the existing ones.
+After the program has finished the calculation, you can check the output for warnings and errors (use fullt text search in some editor).
+
+**It is recommended to keep the original folder structure from the branch**, but you can create new folders in the existing ones.
 Nevertheless, you should pass on names of parent or children folders which containing folder names from the branch.
+

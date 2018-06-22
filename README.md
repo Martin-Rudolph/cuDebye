@@ -9,7 +9,7 @@ In case of commercial use, questions, problems and bugs please write me an [E-Ma
 **As this is an experimental code the usage is at own risk**, we will not take on responsibility for a system crash or anything else.
 _Do not use the program until you have read this documentation file completly._
 
-## GENERAL INFORMATIONS
+## 1 GENERAL INFORMATIONS
 
 - the source code will be uploaded soon
 - I decided to upload all my programming comments despite of the fact, that they are not written in a proper scientific language and contain a lot of spelling mistakes (in fact the english is horrible, but I have no muse to check the comments)

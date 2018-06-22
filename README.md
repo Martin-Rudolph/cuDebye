@@ -194,5 +194,11 @@ In the following example the calculated [diffraction pattern](/Data/UH3_7nm.debI
 In case of a single pattern the average line is fully superimposed.
 
 ### View the Structure
-The structure stored in a deb-file can be visualized with the function [_viewdeb.m_](/Matlab/viewdeb.m)
+The structure stored in a deb-file can be visualized with the function [_viewdeb.m_](/Matlab/viewdeb.m).
+**Commonly, only a part of the selected structure within the range from -10 to 10 Angstrom is plotted**, as the plotting time increases significantly for larger structures.
+
+![UH3 Structure](/images/UH3deb.PNG)
+
+However, other parts can be specified by executing **viewdeb([xmin,xmax; ymin,ymax; zmin,zmax])** and the whole structure can be plotted using **viewdeb([-Inf, Inf])**.
+Everything can be rotated, using the marked button.
 

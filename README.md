@@ -152,7 +152,7 @@ In such a case the occupancy is set to 1 and the isotropic temperature factor to
 This allows to use exported xyz-files from [_Vesta_](http://jp-minerals.org/vesta/en/) directly after the removal of the header. 
 With an enhanced text editor providing column wise operations and enhanced replacement options, like [_Notepad++_](https://notepad-plus-plus.org/) occupancies and temperature facotors can be supplemented.
 
-For the conversion of a xyz-file you can run the [_Matlab_](https://mathworks.com/) function [_xyz2deb.m_](/Matlab/xyz2deb.m) by typing **xyz2deb** in the _Command Window_ (see also Plotting):
+For the conversion of a xyz-file you can run the [_Matlab_](https://mathworks.com/) function [_xyz2deb.m_](/Matlab/xyz2deb.m) by typing **xyz2deb** in the _Command Window_ (see **Plotting**):
 
 ![xyz2deb](/images/xyz2deb.PNG)
 
@@ -178,4 +178,6 @@ You can process and plot the simple output files with any program you like even 
 However, some functions are provided in the folder [_Matlab_](/Matlab).
 
 ### Plotting the Diffraction Patterns
-Just open [_plotdebi.m_](/Matlab/plotdebi.m) with the program [_Matlab_](https://mathworks.com/) and run the function via by typing plotdebi into the the _Command Window_
+Just open [_plotdebi.m_](/Matlab/plotdebi.m) with the program [_Matlab_](https://mathworks.com/) and run the function via _Run_ or by typing plotdebi into the the _Command Window_. In the latter case it is essential that the function is in your current selected working directory, when pressing the _Run_ button _Matlab_ will ask you to change the directory, if it is not correct.
+
+

@@ -161,6 +161,8 @@ In the function [_xyz2deb.m_](/Matlab/xyz2deb.m): you can also edit the first li
 _You have not to worry about the maximum cluster size._
 
 ## Running cuDebye
-First run the _Windows Command Prompt_ (cmd) and navigate to your folder containing _cuDebye.exe_, __
+First run the _Windows Command Prompt_ (cmd) and navigate to your folder containing _cuDebye.exe_, _cudart32_80.dll_ and _cudart64_80.dll_.
+
+![]
 Keeping the folder structure from the branch after unpacking you can open the _Windows_ console (cmd) 
 During the program run in the _Windows_ console (cmd) some properties and the progress is displayed, a full example is given in the [Log-File](Data/cmd-logfile.txt). Afterwards you can search warnings and errors in this output (copy it and use full text search).

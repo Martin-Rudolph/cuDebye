@@ -41,6 +41,9 @@ Please do not try GPUs with less power.
 If you have only one, this number is 0. 
 Otherwise each installed _Cuda Device_ has an integer number 0,1,2... choose the one with highest performance.
 For checking your PC you can use [_GPU-Z_](https://www.techpowerup.com/gpuz/).
+This program also provides important information about the Cuda Properties, necessary for adjusting the block and grid size (see below):
+
+![Cuda Properties GPU-Z](/images/gpuz.PNG)
 
 **The second and the third number** specifies the block and the grid size for the calculation.
 In the shown example the block size is **8 x 8 = 64 Threads** and the grid size is **1024 x 1024 = 1e6 Blocks = 67e6 Threads** (approximately). 
@@ -50,11 +53,9 @@ The latter can be a problem, as GPUs will be reset by _Microsoft Windows_ after 
 Unfortunately, this leads to the termination of _cuDebye_.
 The faster your GPU, the larger is the number of distances you can calculate within these 2 seconds.
 
-So you should run the program (see ** 3 Running cuDebye**) first with the parameters in the example file [_GammaAl2O3_10nm.deb_](Data/GammaAl2O3_10nm.deb) and check the following displayed CUDA PROPERTIES **or use [_GPU-Z_](https://www.techpowerup.com/gpuz/)**:
+So you should run the program (see ** 3 Running cuDebye**) first with the parameters in the example file (maybe you have to change first the _Device Number_ - see above) [_GammaAl2O3_10nm.deb_](Data/GammaAl2O3_10nm.deb) and check the following displayed CUDA PROPERTIES:
 
 ![Cuda Properties](/images/cmd_CudaProp.PNG)
-
-![Cuda Properties GPU-Z](/images/gpuz.PNG)
 
 Afterwards you can increase the block and grid size carefully under consideration of the following hints:
 

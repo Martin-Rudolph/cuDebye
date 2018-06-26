@@ -50,9 +50,11 @@ The latter can be a problem, as GPUs will be reset by _Microsoft Windows_ after 
 Unfortunately, this leads to the termination of _cuDebye_.
 The faster your GPU, the larger is the number of distances you can calculate within these 2 seconds.
 
-So you should run the program (see ** 3 Running cuDebye**) first with the parameters in the example file [_GammaAl2O3_10nm.deb_](Data/GammaAl2O3_10nm.deb) and check the following displayed **CUDA PROPERTIES**:
+So you should run the program (see ** 3 Running cuDebye**) first with the parameters in the example file [_GammaAl2O3_10nm.deb_](Data/GammaAl2O3_10nm.deb) and check the following displayed CUDA PROPERTIES **or use [_GPU-Z_](https://www.techpowerup.com/gpuz/)**:
 
 ![Cuda Properties](/images/cmd_CudaProp.PNG)
+
+![Cuda Properties GPU-Z](/images/gpuz.PNG)
 
 Afterwards you can increase the block and grid size carefully under consideration of the following hints:
 

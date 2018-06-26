@@ -41,7 +41,7 @@ Please do not try GPUs with less power.
 If you have only one, this number is 0. 
 Otherwise each installed _Cuda Device_ has an integer number 0,1,2... choose the one with highest performance.
 For checking your PC you can use [_GPU-Z_](https://www.techpowerup.com/gpuz/).
-This program also provides important information about the Cuda Properties, necessary for adjusting the block and grid size (see below):
+This program also provides important information about the _Cuda Properties_, necessary for adjusting the block and grid size (see below):
 
 ![Cuda Properties GPU-Z](/images/gpuz.PNG)
 

@@ -45,6 +45,8 @@ This program also provides important information about the _Cuda Properties_, ne
 
 ![Cuda Properties GPU-Z](/images/gpuz.PNG)
 
+The _Device Number_ (in our case 0) is part of the PCI ID property.
+
 **The second and the third number** specifies the block and the grid size for the calculation.
 In the shown example the block size is **8 x 8 = 64 Threads** and the grid size is **1024 x 1024 = 1e6 Blocks = 67e6 Threads** (approximately). 
 In other words, per calculation step around 67 million distances are calculated, if the number of interatomic distances is higher the program will automatically run enough steps. 

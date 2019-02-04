@@ -2,7 +2,7 @@
 A fast experimental _Cuda_ routine for the evaluation of powder diffraction patterns from atomistic models.
 
 This is an open source software, you can use and redistribute everything, **but you are encouraged to cite our publication:**
-- will be added soon
+[M. Rudolph, M. Motylenko, D. Rafaja. "Structure model of \gamma-Al_2_O_3_"](https://doi.org/10.1107/S2052252518015786)
 
 In case of commercial use, questions, problems and bugs please write me an [E-Mail](mailto:m.s.rudolph@outlook.com).
 
